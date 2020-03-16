@@ -6,7 +6,7 @@
   "scripts": {
     "dmc": "dmc",
     "deploy": "gulp",
-    "test": "dmc test"
+    "test": "sfdx-lwc-jest"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
     "gulp-debug": "4.0.0",
     "gulp-jsforce-deploy": "1.1.2",
     "gulp-zip": "5.0.1",
-    "jsforce": "1.9.3"
+    "jsforce": "1.9.3",
+    "@salesforce/sfdx-lwc-jest": "0.7.1",
+    "@salesforce/eslint-config-lwc": "0.5.0"
   }
 }
